@@ -31,7 +31,7 @@ class Player{
 			this.x=width-50;
 		}
 		
-  }//keyPressed_end
+  	}//keyPressed_end
 	
 	//setX
 	setPlayerX(){
