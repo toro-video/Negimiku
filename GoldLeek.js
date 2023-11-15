@@ -24,13 +24,13 @@ class GoldLeek{
 	//gold leek collision
 	goldLeekCollision(){
 		if (this.x - 50 < goldLeekX && this.x + 50 > goldLeekX) {
-			if (this.y - 50 < goldLeekY && this.y + 50 > goldLeekY) {
-				score *= 2;
-				goldLeekY = -2300;
-				if (goldLeekY <= -50) {
-					goldLeekX = random(width/4, width-width/4);
-				}
+		  if (this.y - 50 < goldLeekY && this.y + 50 > goldLeekY) {
+			score *= 2;
+			goldLeekY = -2300;
+			if (goldLeekY <= -50) {
+				goldLeekX = random(width/4, width-width/4);
 			}
+		  }
 		}
 	}
 
