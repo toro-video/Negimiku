@@ -30,12 +30,23 @@ class Player {
 		} else if (this.x > width - 50) {
 			this.x = width - 50;
 		}
+<<<<<<< HEAD:scripts/Player.js
 
 	}//keyPressed_end
 
+=======
+		
+  	}//keyPressed_end
+	
+>>>>>>> bf373cdd672f488e7c9a7598f2247ab9b9564123:Player.js
 	//setX
 	setPlayerX() {
 		x = this.x;
 	}
+<<<<<<< HEAD:scripts/Player.js
 
 }
+=======
+	
+}
+>>>>>>> bf373cdd672f488e7c9a7598f2247ab9b9564123:Player.js
